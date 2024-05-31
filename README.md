@@ -15,5 +15,6 @@ Run: `docker stack deploy -c docker-compose.yaml app-stack`
 
 Scale: `docker service scale app-stack_app=#` (# = number of containers)
 <br>
+<br>
 
 Going to `localhost:8080` in your browser should display 'Hello World.'
