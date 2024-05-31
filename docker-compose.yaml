@@ -1,0 +1,17 @@
+---
+version: "3.8"
+services:
+  app:
+    image: create-docker-image
+    ports: 
+      - 3000:8080
+    deploy:
+      replicas: 3
+  app2:
+    image: create-docker-image
+    ports: 
+      - 3001:8080
+    deploy:
+      replicas: 2
+
+...

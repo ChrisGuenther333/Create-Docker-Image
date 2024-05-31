@@ -1,4 +1,4 @@
-FROM node
+FROM node:latest
 LABEL maintainer='Chris Guenther'
 LABEL animal='Tiger'
 WORKDIR /app
